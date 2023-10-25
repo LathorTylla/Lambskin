@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Ui_ToolKit%20Folder/MisEstilos.uss?fileID=7433441132597879392&amp;guid=deb788de68c0ac8468b415f4ebfb4d04&amp;type=3#MisEstilos" />
+    <ui:ProgressBar value="104.55" high-value="100" style="width: 9px; height: 88px; flex-direction: column; align-items: center; justify-content: center; scale: 5 -5; rotate: -90deg; translate: 379px 517px;" />
+    <ui:VisualElement name="Contenedor" class="contenedor">
+        <ui:VisualElement name="PantallaCentro" class="pantallacentro" style="width: 100%; height: 100%; flex-direction: column; align-items: center; justify-content: space-around;">
+            <ui:DropdownField label="Dropdown" index="-1" choices="System.Collections.Generic.List`1[System.String]" />
+            <ui:RadioButton label="Radio Button" />
+            <ui:Toggle label="Toggle" />
+            <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" style="width: 364px;" />
+            <ui:VisualElement name="Titulo">
+                <ui:Label text="Lambskin Prueba" display-tooltip-when-elided="true" style="font-size: 93px; height: 229px; width: 724px; -unity-text-align: middle-center; flex-wrap: wrap-reverse; white-space: normal;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Boton">
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="boton-menu" style="padding-left: 80px; padding-right: 80px; padding-top: 80px; padding-bottom: 80px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
