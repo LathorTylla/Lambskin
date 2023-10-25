@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    //Se encarga de crear un intervalo para la velocidad de la camara
     [Range(1.0f, 20.0f)]
     public float movement_speed;
 
+    //Se encarga de crear un intervalo para la distacia que movera la camara
     [Range(1.0f, 6.0f)]
     public float distance;
 
